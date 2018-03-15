@@ -1,6 +1,7 @@
 body {
   background: #EEEEEE;
   font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
   margin: 40px 0;
 }
 em {
@@ -101,16 +102,7 @@ a {
 }
 
 .jobBlock {
-  margin: 0 0 0 2em;
   page-break-inside: avoid;
-}
-
-.companyDescription {
-  margin:0;
-}
-
-.companyDescription.withDescription {
-  margin:0 0 1em 0;
 }
 
 /* Media Queries */
@@ -125,10 +117,6 @@ a {
     padding: 0.5em 1em;
     border: none;
   }
-  .sectionBlock {
-    display:initial;
-  }
-
   .sectionContent {
     width: 100%;
   }
@@ -136,9 +124,7 @@ a {
     padding-right: 2em;
   }
   .sectionName {
-    width: initial;
-    display: block;
-    margin: 0 0 1em;
+    width: auto;
   }
   .largeFont {
     font-size: 20px;
@@ -149,13 +135,9 @@ a {
 }
 
 @media print {
-  body {
-    margin: 0;
-  }
-
   #resume {
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 600px;
     padding: 0px 0px;
     border: 0px;
     background: #fff;

@@ -68,6 +68,32 @@
   <div class='sectionLine'></div>
   {{/if}}
 
+  {{#if resume.skills.length}}
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      {{#each resume.skills}}
+      <div class='skillBlock'>
+        <span class='title'>{{#if name}}{{name}}{{/if}}{{#if level}} <em>({{level}})</em>{{/if}}:</span>
+        {{#if keywords.length}}
+          {{#each keywords}}
+          <span>{{.}}</span>{{#unless @last}}, {{/unless}}
+          {{/each}}
+        {{/if}}
+        {{#if details.length}}
+          {{#each details}}
+          <span>{{#if text}}{{text}}{{/if}}{{#if comment}} <em>({{comment}})</em>{{/if}}{{#unless @last}}, {{/unless}}</span>
+          {{/each}}
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+	{{/if}}
+
 	{{#if resume.work.length}}
   <div id='workBlock' class="sectionBlock">
     <div class='sectionName'>
@@ -75,34 +101,49 @@
     </div>
     <div class='sectionContent'>
       {{#each resume.work}}
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          {{#if company}}{{company}}{{/if}}{{#if position}}, {{position}}{{/if}}
-	        </span>
-	        {{#if startDate}}
-	        <span class='date'>
-	          {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
-	        </span>
-	        {{/if}}
-	      </div>
-	      <div><a href='{{website}}'>{{website}}</a></div>
-	      {{#if highlights.length}}
-	      <ul class='highlights'>
-	        {{#each highlights}}
-	        <li>{{.}}</li>
-	        {{/each}}
-	      </ul>
-	      {{/if}}
-	      {{#if details.length}}
-	      <ul class='details'>
-	        {{#each details}}
-	        <li>{{#if text}}{{text}}{{/if}}{{#if comment}} <em>[{{comment}}]</em>{{/if}}</li>
-	        {{/each}}
-	      </ul>
-	      {{/if}}
-	      {{#unless @last}}<div class='separator'></div>{{/unless}}
-			</div>
+        <div class="companyBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              {{#if name}}{{name}}{{/if}}
+            </span>
+          </div>
+          <div class="companyDescription {{#if description}}withDescription{{/if}}">
+            {{#if description}}{{description}}{{/if}}
+          </div>
+        </div>
+        {{#if positions.length}}
+          {{#each positions}}
+            <div class="jobBlock">
+              <div class='blockHeader'>
+                <span class='title'>
+                  {{#if position}}{{position}}{{/if}}
+                </span>
+                {{#if startDate}}
+                <span class='date'>
+                  {{smallDate startDate}} &mdash; {{#if endDate}}{{smallDate endDate}}{{else}}Present{{/if}}
+                </span>
+                {{/if}}
+              </div>
+              <div><a href='{{website}}'>{{website}}</a></div>
+              {{#if highlights.length}}
+              <ul class='highlights'>
+                {{#each highlights}}
+                <li>{{.}}</li>
+                {{/each}}
+              </ul>
+              {{/if}}
+              {{#if details.length}}
+              <ul class='details'>
+                {{#each details}}
+                <li>{{#if text}}{{text}}{{/if}}{{#if comment}} <em>[{{comment}}]</em>{{/if}}</li>
+                {{/each}}
+              </ul>
+              {{/if}}
+              {{#unless @last}}<div class='separator'></div>{{/unless}}
+            </div>
+          {{/each}}
+        {{/if}}
+        {{#unless @last}}<div class='separator'></div>{{/unless}}
       {{/each}}
     </div>
   </div>
@@ -145,13 +186,13 @@
   <div class='sectionLine'></div>
 	{{/if}}
 
-	{{#if resume.awards.length}}
-	<div id='awards' class="sectionBlock">
+	{{#if resume.certifications.length}}
+	<div id='certifications' class="sectionBlock">
     <div class='sectionName'>
-      <span>AWARDS</span>
+      <span>CERTIFICATIONS</span>
     </div>
     <div class='sectionContent'>
-      {{#each resume.awards}}
+      {{#each resume.certifications}}
       <div class='blockHeader'>
         <span class='title'>
           {{#if title}}{{title}}{{/if}}{{#if awarder}}, {{awarder}}{{/if}}
@@ -221,7 +262,7 @@
         </span>
         {{#if startDate}}
         <span class='date'>
-          {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+          {{smallDate startDate}} &mdash; {{#if endDate}}{{smallDate endDate}}{{else}}Present{{/if}}
         </span>
         {{/if}}
         <div class=''>
@@ -246,31 +287,7 @@
   <div class='sectionLine'></div>
 	{{/if}}
 
-	{{#if resume.skills.length}}
-	<div id='skills' class="sectionBlock">
-    <div class='sectionName'>
-      <span>SKILLS</span>
-    </div>
-    <div class='sectionContent'>
-      {{#each resume.skills}}
-      <div class='skillBlock'>
-        <span class='title'>{{#if name}}{{name}}{{/if}}{{#if level}} <em>({{level}})</em>{{/if}}:</span>
-        {{#if keywords.length}}
-          {{#each keywords}}
-          <span>{{.}}</span>{{#unless @last}}, {{/unless}}
-          {{/each}}
-        {{/if}}
-        {{#if details.length}}
-          {{#each details}}
-          <span>{{#if text}}{{text}}{{/if}}{{#if comment}} <em>({{comment}})</em>{{/if}}{{#unless @last}}, {{/unless}}</span>
-          {{/each}}
-        {{/if}}
-      </div>
-      {{/each}}
-    </div>
-	</div>
-  <div class='sectionLine'></div>
-	{{/if}}
+	
 
 	{{#if resume.languages.length}}
 	<div id='languages' class="sectionBlock">

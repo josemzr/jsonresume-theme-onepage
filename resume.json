@@ -1,115 +1,199 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
+    "name": "Jose Manzaneque Ramos",
+    "label": "",
     "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "jmm0693@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": ["Passionate, energetic and results-oriented engineer experienced in cloud technologies. As I believe that cloud computing represents the heart of digital transformation, my role is to help businesses with their process of change to be more efficient and flexible, both financially and technically. Regarding my previous job experience, I have worked with clients on strategy, planning and providing guidance on technological issues which require a strong understanding of the ICT industry in roles varying from Operations to Sales, managing mission critical systems and driving innovation and technology transformation in global Enterprise client accounts both in Madrid and Silicon Valley." ],
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "city": "Madrid",
+      "countryCode": "",
+      "region": "Spain"
     },
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
-      },
-      {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "Jose Manzaneque Ramos",
+        "url": "http://bit.ly/2G5xOGB"
       }
+
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "IBM Global Technology Services",
+      "position": "IT Specialist - Infrastructure at the GTS Incubation Lab",
+      "website": "http://www.ibm.com/",
+      "startDate": "Oct 2017",
+      "endDate": "",
+      "summary": "Operating out of the IBM Almaden Research Center in the San Francisco bay area.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Working on software defined storage/resiliency/networking, cognitive/AI systems, hybrid cloud architecture, hyper-converged infrastructure and monitoring.",
+	"Partnering with startups to enhance IBM's offering portfolio and include in IBM's deal pipeline."
+      ]
+    },
+    {
+      "company": "CAPSiDE",
+      "position": "SysOps Engineer",
+      "website": "https://www.capside.com/",
+      "startDate": "Apr 2017",
+      "endDate": "Oct 2017",
+      "summary": "Managed cloud-based mission critical systems for our customers, many of them leading companies of their industry.",
+      "highlights": [
+        "Built complex systems for mission critical projects, from architecture design to migration planning and continuous operation and improvement.",
+	"Analyzed and improved systems’ performance and scalability and automated systems management.",
+  	"Responded to incidents, diagnosing their root cause and fixing the underlying problems."
+      ]
+    },
+    {
+      "company": "Telefonica Business Solutions",
+      "position": "Datacenter and Cloud Presales Specialist",
+      "website": "https://www.business-solutions.telefonica.com/",
+      "startDate": "Jun 2016",
+      "endDate": "Mar 2017",
+      "summary": "Supported Cloud sales in complex solutions by ensuring that the proposed deal included technical solutions that accurately addressed customer needs.",
+      "highlights": [
+        "Engineered and designed the proposal tailored to each customer using Telefonica's Cloud platforms.",
+        "Took requirements in order to analyze and draft the technical proposal in RFP/RFIs of Multinational clients.",
+        "Architected solutions based on VMware and OpenStack (VDC/Open Cloud).",
+	"Provided technical support to the Presales team.",
+	"Prepared  PoCs and demos for the Marketing department and final client."
+      ]
+    },
+    {
+      "company": "Telefonica Global Solutions",
+      "position": "Presales Intern",
+      "website": "https://www.wholesale.telefonica.com/es/",
+      "startDate": "Sep 2015",
+      "endDate": "Jun 2016",
+      "summary": "",
+      "highlights": [
+        "Improved the efficiency of the processes and tools.",
+	"Performed KPI analysis.",
+	"Prepared training resources to the whole multinational presales community.",
+	"Supported the Bid Management Process."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "Dublin Institute of Technology",
+      "area": "Digital Technology and Design",
+      "studyType": "Bachelor of Science",
+      "startDate": "Oct 2017",
+      "endDate": "Oct 2018",
+      "gpa": "",
+      "courses": []
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
+      "institution": "Universidad Politecnica de Madrid",
+      "area": "Telecommunications Systems Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Sep 2011",
+      "endDate": "Jun 2016",
+      "gpa": "",
+      "courses": []
+    }    
   ],
-  "publications": [
+  "certifications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "title": "AWS Certified Solutions Architect - Professional",
+      "date": "Mar 2018"
+    },	
+    {
+      "title": "Microsoft Certified Solutions Expert - Cloud Platform and Infrastructure",
+      "date": "Sep 2017"
+    },
+    {
+      "title": "Microsoft Certified Solutions Associate - Windows Server 2012",
+      "date": "Aug 2017"
+    },
+    {
+      "title": "VMware Certified Professional - Datacenter Virtualization 6",
+      "date": "Apr 2017"
+    },
+    {
+      "title": "Juniper Networks Certified Design Specialist - Data Center",
+      "date": "Feb 2017"
+    },
+    {
+      "title": "Juniper Networks Certified Design Associate",
+      "date": "Dec 2016"
+    },
+    {
+      "title": "Mirantis Certified Administrator for OpenStack",
+      "date": "Jul 2016"
     }
   ],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": [
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud Platform",
+	"VMware",
+	"OpenStack",
+	"Hybrid and Private cloud"	
       ]
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Ansible",
+	"Automation",
+        "Bash scripting",
+	"Jenkins",
+	"Docker",
+	"Kubernetes",
+	"Agile team management"
+      ]
+    },
+
+    {
+      "name": "Windows Server",
+      "level": "",
+      "keywords": [
+        "Active Directory",
+        "System Center Configuration Manager"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "level": "",
+      "keywords": [
+        "System Administration"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": "Software-defined Networking and Network Functions Virtualization"
+    },
+    {
+      "name": "Blockchain"
+    },
+    {
+      "name": "AI for cognitive IT service automation"
+    },
+    {
+      "name": "Digital Transformation"
     }
-  ]
+  ],
+  "references": []
 }
