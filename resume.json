@@ -4,7 +4,7 @@
     "label": "",
     "picture": "",
     "email": "jmm0693@gmail.com",
-    "phone": "",
+    "phone": "+1 (669) 275-3155 (USA), +34 669714520 (Spain)",
     "website": "",
     "summary": ["Passionate, energetic and results-oriented engineer experienced in cloud technologies. As I believe that cloud computing represents the heart of digital transformation, my role is to help businesses with their process of change to be more efficient and flexible, both financially and technically. Regarding my previous job experience, I have worked with clients on strategy, planning and providing guidance on technological issues which require a strong understanding of the ICT industry in roles varying from Operations to Sales, managing mission critical systems and driving innovation and technology transformation in global Enterprise client accounts both in Madrid and Silicon Valley." ],
     "location": {
@@ -23,12 +23,21 @@
   },
   "work": [
     {
-      "company": "IBM Global Technology Services",
-      "position": "IT Specialist - Infrastructure at the GTS Incubation Lab",
+      "company": "BT Global Services",
+      "position": "S&IT Lead Consultant for Professional Services",
+      "website": "http://www.bt.com/",
+      "startDate": "Oct 2018",
+      "endDate": "",
+      "summary": "",
+      "highlights": ""
+    },
+    {
+      "company": "IBM",
+      "position": "Systems Engineer, GTS Incubation Lab",
       "website": "http://www.ibm.com/",
       "startDate": "Oct 2017",
-      "endDate": "",
-      "summary": "Operating out of the IBM Almaden Research Center in the San Francisco bay area.",
+      "endDate": "Oct 2018",
+      "summary": "Operating out of the IBM Almaden Research Center in the San Francisco Bay Area.",
       "highlights": [
         "Working on software defined storage/resiliency/networking, cognitive/AI systems, hybrid cloud architecture, hyper-converged infrastructure and monitoring.",
 	"Partnering with startups to enhance IBM's offering portfolio and include in IBM's deal pipeline."
@@ -82,8 +91,8 @@
       "institution": "Dublin Institute of Technology",
       "area": "Digital Technology and Design",
       "studyType": "Bachelor of Science",
-      "startDate": "Oct 2017",
-      "endDate": "Oct 2018",
+      "startDate": "",
+      "endDate": "",
       "gpa": "",
       "courses": []
     },
@@ -91,8 +100,8 @@
       "institution": "Universidad Politecnica de Madrid",
       "area": "Telecommunications Systems Engineering",
       "studyType": "Bachelor of Engineering",
-      "startDate": "Sep 2011",
-      "endDate": "Jun 2016",
+      "startDate": "",
+      "endDate": "",
       "gpa": "",
       "courses": []
     }    
@@ -147,6 +156,7 @@
       "keywords": [
         "Ansible",
 	"Automation",
+	"Python",
         "Bash scripting",
 	"Jenkins",
 	"Docker",
